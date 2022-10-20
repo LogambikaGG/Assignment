@@ -1,0 +1,19 @@
+[
+    {
+        "patid": 100,
+        "prescription": "paracetomol",
+        "date": "11"
+    },
+    {
+        "patid": 100,
+        "prescription": "paracetomol",
+        "date": "11"
+    },
+    {
+        "patid": 102,
+        "prescription": "paracetomol",
+        "date": "11"
+    }
+]
+
+
