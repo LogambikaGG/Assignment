@@ -8,7 +8,7 @@ const fs = require('fs');
 
 app.use(bodyParser.json());
 
-app.get('/patientNames0', (req, res) => {
+app.get('/patientNames', (req, res) => {
     // res.send('To get all details using get function!!!');
     res.json(patientNames);
 });
@@ -82,6 +82,8 @@ app.get('/patientDetail/:patid', (req, res) => {
     // res.send('txt');
     res.json(pd);
 });
+
+
 
 const port = 4000;
 
